@@ -18,14 +18,16 @@ public class APP {
         alunos.add(a4);
         alunos.add(a5);
         alunos.add(a6);
+
         Disciplina d1 = new DisciplinaTeorica("MAT200", "Calculo I", 4);
         Disciplina d2 = new DisciplinaTeorica("PROG200", "programação II", 2 );
         Disciplina d3 = new DisciplinaPratica("LAB101", "Laboratório de Programação " , 2);
+        Disciplina d4 = new DisciplinaPratica("LAB102", "Laboratório de Redes " , 2);
 
         disciplinas.add(d1);
         disciplinas.add(d2);
         disciplinas.add(d3);
-
+        disciplinas.add(d4);
         SolicitarMatricula(a1, d2);
         SolicitarMatricula(a1, d1);
         SolicitarMatricula(a2, d1);
