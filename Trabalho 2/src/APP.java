@@ -10,12 +10,14 @@ public class APP {
         Aluno a3 = new Aluno("Carla", 21, "Computação", "A003");
         Aluno a4 = new AlunoBolsa ("Diego", 23, "Computação", "A004");
         Aluno a5 = new Aluno("Eva", 20, "Computação", "A005");
+        Aluno a6 = new Aluno("Felipe", 24, "Computação", "A006");
+
         alunos.add(a1);
         alunos.add(a2);
         alunos.add(a3);
         alunos.add(a4);
         alunos.add(a5);
-
+        alunos.add(a6);
         Disciplina d1 = new DisciplinaTeorica("MAT200", "Calculo I", 4);
         Disciplina d2 = new DisciplinaTeorica("PROG200", "programação II", 2 );
         Disciplina d3 = new DisciplinaPratica("LAB101", "Laboratório de Programação " , 2);
